@@ -1,6 +1,6 @@
 # AI Digest Editorial Skill
 
-中文AI日报的可移植Agent技能包：一手来源优先，国内外兼顾，四板块正文，Cloudflare HTML页面＋高清多图交付。
+中文AI日报的可移植Agent技能包：一手来源优先，国内外兼顾，四板块正文，HTML静态发布＋高清多图交付。
 
 ## 正文结构
 1. 模型与产品
@@ -8,7 +8,7 @@
 3. 技术研究
 4. 核心博客（仅主要模型公司官方博客，标题带公司标签）
 
-重点覆盖OpenAI、Anthropic、DeepMind、Meta、Mistral、DeepSeek、Qwen、MiniMax、Moonshot/Kimi、智谱及字节Seed。整合TLDR AI、The Rundown AI、Import AI、InfoQ AI快讯和机器之心作为发现入口。
+重点覆盖OpenAI、Anthropic、DeepMind、Meta、Mistral、DeepSeek、Qwen、MiniMax、Moonshot/Kimi、智谱及字节Seed。整合TLDR AI、The Rundown AI、Import AI、InfoQ AI快讯作为信息参考与发现入口。
 
 ## 安装
 下载Release中的ZIP，解压后将包含SKILL.md的目录放到你的Agent技能目录。
@@ -25,7 +25,7 @@ cp -R ai-digest-editorial-skill ~/.hermes/skills/ai-digest-editorial
 
 > 使用ai-digest-editorial生成今天AI日报，按四板块制作HTML和2160px宽阅读图，发布到我的Cloudflare Pages并发送图片。
 
-首次需要配置你自己的Cloudflare项目与凭据。本包不自动创建cron，不附带任何个人账号、网站、凭据或历史日报。非默认Hermes profile请放入对应profile的skills目录。
+首次检查已有HTML发布能力；没有则提示配置GitHub Pages、Cloudflare Pages或Netlify等静态托管。未配置时可先交付本地HTML与图片，不阻塞制作。本包不自动创建cron，不附带任何个人账号、网站、凭据或历史日报。非默认Hermes profile请放入对应profile的skills目录。
 
 ## 能力与边界
 这是**编辑与交付工作流skill**，不是无人值守的RSS抓取软件。它依赖宿主Agent具备网页读取、文件操作、HTML渲染、截图及部署能力。来源可能限流或拦截，必须核验并披露缺口；模型会犯错，不能省略事实校对。Cloudflare发布可配合独立的cloudflare-pages-slides技能或官方部署工具。

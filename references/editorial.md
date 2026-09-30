@@ -5,7 +5,6 @@
 - The Rundown AI：https://www.therundown.ai/articles（日常产品与应用）
 - Import AI：https://importai.substack.com/feed（研究周报，最多7天背景，标原日期与期号）
 - InfoQ AI快讯：https://www.infoq.cn/aibriefs（包含AI转述，必须追溯原文）
-- 机器之心：https://www.jiqizhixin.com/articles（中文研究与产业，可能有访问限制）
 
 这些URL不是永久可用承诺。每次核验实际正文和日期，排除赞助、课程推广、空页面、验证页。RSS片段不能当全文。第三方公众号RSS常只给标题和搜索链接，不能当原始证据。
 
